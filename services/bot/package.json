@@ -1,0 +1,23 @@
+{
+  "name": "@su/bot",
+  "version": "3.0.0",
+  "description": "⚙️The official moderation bot for Sound's World.",
+  "main": "dist/index.js",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "node . --max-old-space-size=8192",
+    "build": "tateru bot"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord.js": "^13.0.0-dev.30a58dc.1627387368",
+    "knub": "DarkView/Knub#djs_temp",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "prettier": "^2.3.2",
+    "tateru": "^0.0.9"
+  }
+}
